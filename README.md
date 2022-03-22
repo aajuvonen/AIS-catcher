@@ -4,6 +4,10 @@ The program provides the option to read and decode the raw discriminator output 
 
 ![Image](https://raw.githubusercontent.com/jvde-github/AIS-catcher/media/media/containership.jpg)
 
+## About this fork
+
+The purpose of this fork is to enable reception using 432-438 MHz ISM band. The software is forked to specifically tune to a 433.800 MHz carrier, to which shifted AIS channels A and B are adjacent by an offset of 25 kHz above and below, respectively.
+
 ## Purpose
 
 The aim of ```AIS-catcher``` is to provide a platform to facilitate continuous improvement of receiver models. Any suggestions, observation or sharing of recordings for setups where the current models are struggling is highly appreciated! The algorithm behind the default receiver model was created by investigating signals and trying different ways to get a coherent model running whilst keeping it simple at the same time. If I have some more free time I will try to expand the documentation and implement some improvement ideas.
