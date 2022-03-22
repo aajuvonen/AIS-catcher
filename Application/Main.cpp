@@ -465,7 +465,7 @@ int main(int argc, char* argv[])
 
 		// override sample rate if defined by user
 		if (sample_rate) device->setSampleRate(sample_rate);
-		device->setFrequency((int)(433e8));
+		device->setFrequency((int)(4338e5));
 
 		// ------------
 		// Setup models
